@@ -3,48 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>No-lopy Portfolio</title>
+    <title>nolopy // hidden bench</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>No-lopy</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
+    <div class="crt-scanlines"></div>
+    <div class="crt-flicker"></div>
+    
+    <main class="bench-container">
+        <header class="site-header">
+            <h1 class="typewriter-text">> nolopy_</h1>
+            <p class="subtitle">developer & web designer</p>
+        </header>
+
+        <nav class="bench-nav">
+            <button class="nav-btn" data-section="about">[ about ]</button>
+            <button class="nav-btn" data-section="contact">[ contact ]</button>
         </nav>
-    </header>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                Hello! I'm No-lopy, and this is my portfolio website. Add a brief bio here, your interests, skills, or anything that represents you!
-            </p>
+        <section id="about" class="section active">
+            <div class="content-wrapper">
+                <h2>> about_me</h2>
+                <p>Welcome to my hidden bench. I'm nolopy — a developer and web designer passionate about creating digital spaces that feel like home. I blend vintage tech aesthetics with modern functionality, always with a touch of warmth and personality.</p>
+                <p>When I'm not coding, you'll find me making music or exploring cybersecurity realms. I particularly love working with indie game developers to bring their visions to life.</p>
+            </div>
         </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form id="contactForm">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <button type="submit">Send</button>
-                <p id="formStatus"></p>
-            </form>
+        <section id="contact" class="section">
+            <div class="content-wrapper">
+                <h2>> get_in_touch</h2>
+                <p>Feel free to reach out if you'd like to collaborate or just chat about indie games and vintage tech.</p>
+                <div class="contact-links">
+                    <a href="mailto:hello@nolopy.com" class="contact-link">[ email ]</a>
+                    <a href="https://github.com/nolopy" class="contact-link">[ github ]</a>
+                    <a href="https://twitter.com/nolopy" class="contact-link">[ twitter ]</a>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 No-lopy. All rights reserved.</p>
-    </footer>
     <script src="script.js"></script>
 </body>
 </html>
